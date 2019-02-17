@@ -4,7 +4,7 @@
             <span>Data Set 1</span>
         </div>
         <div class="ContentContainer">
-          <textarea placeholder="
+          <textarea [(ngModel)]="data1" placeholder="
           {
             'x': [],
             'y': []
@@ -13,14 +13,14 @@
         </div>
     </div>
     <div class="buttonContainer">
-      <button>Compare</button>
+      <button (click)="compareData()">Compare</button>
     </div>
     <div class="inputControlsContainer">
       <div class="Heading">
           <span>Data Set 2</span>
       </div>
       <div class="ContentContainer">
-        <textarea placeholder="
+        <textarea [(ngModel)]="data2" placeholder="
           {
             'x': [],
             'y': []

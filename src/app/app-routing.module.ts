@@ -5,7 +5,7 @@ import { DataCompareResultComponent } from "./data-compare-result/data-compare-r
 
 const routes: Routes = [
   {path:"", component:InputCompareDataComponent},
-  {path:"result", component:DataCompareResultComponent}
+  {path:"results", component:DataCompareResultComponent}
 ]
 
 @NgModule({
